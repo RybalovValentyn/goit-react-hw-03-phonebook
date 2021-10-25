@@ -1,8 +1,7 @@
 import React from "react";
 import s from './Phonebook.module.css'
 function Contacts({contact, onDeleteContact}) {
-  
-    return (
+      return (
 
         <ul className={s.contactsList}>
             {contact.map(contact=>
